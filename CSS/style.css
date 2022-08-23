@@ -1,65 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 body {
-    background-color: rgb(203, 232, 241);
+    background-image: linear-gradient(45deg, #009ddc, #03f7eb);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: green;
-    background-color: lightblue;
-    border: 2px solid lightblue;
-    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    color: #054a91;
+    margin-bottom: 5%;
+    margin-top: 7%;
     padding: 10px;
+    font-size: 80px;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    column-gap: 3%;
 }
 
 .menu {
-    display: inline;
-    margin-left: 10%;
-    margin-right: 5%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #00B295;
+    background-color: #00B295;
+    padding: 5%;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 3%;
 }
 
 a {
     text-decoration: none;
-    color: black;
-    background-color: lightcyan;
-}
-
-nav {
-    border: 2px solid lightblue;
-    background-color: lightblue;
+    color: white;
 }
 
 img {
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 98%;
+    margin: auto;
 }
 
 h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 208, 245);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: #f26430;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size: 45px;
+    border: 2px solid black;
+    padding: 5%;
 }
 
 p {
+    font-family: 'Work Sans', sans-serif;
     text-align: justify;
+    font-size: 35px;
+    margin: 1% 1% 1% 1%;
+}
+
+#blocoHistoria {
+    display: grid;
+    grid-template-columns: 50% 45%;
+}
+
+.imageCenter {
+    width: 50%;
+    height: 25%;
+    margin-left: 26%;
+}
+
+.pCenter {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+li {
+    font-size: 30px;
+    margin-left: 20%;
 }
 
 #container {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    margin-left: 10%;
+    margin-left: 8%;
+    column-gap: 3%;
 }
 
 #container img {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
 
 #item1 {
     text-align: center;
-    color: green;
+    color: #054A91;
     font-weight: bold;
+    font-size: 30px;
     grid-row-start: 1;
     grid-column-start: 1;
     grid-column-end: 1;
@@ -73,8 +118,9 @@ p {
 
 #item3 {
     text-align: center;
-    color: green;
+    color: #054A91;
     font-weight: bold;
+    font-size: 30px;
     grid-row-start: 1;
     grid-column-start: 2;
     grid-column-end: 2;
@@ -88,8 +134,9 @@ p {
 
 #item5 {
     text-align: center;
-    color: green;
+    color: #054A91;
     font-weight: bold;
+    font-size: 30px;
     grid-row-start: 1;
     grid-column-start: 3;
     grid-column-end: 3;
