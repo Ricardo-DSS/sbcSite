@@ -201,4 +201,6 @@ h3 {
 #cronologia > li {
     font-size: 20px;
     margin-left: 7%;
+    margin-right: 7%;
+    text-align: justify;
 }
