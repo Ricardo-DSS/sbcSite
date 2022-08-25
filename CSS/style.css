@@ -175,12 +175,30 @@ li {
     grid-column-end: 3;
 }
 
-#item2:hover, #item4:hover, #item6:hover {
-
-}
-
 footer p {
-    font-size: 15px;
+    font-size: 10px;
     text-align: left;
 }
 
+#sobre {
+    margin-bottom: 1%;
+}
+#foto {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+.paragrafoTop {
+    font-size: 20px;
+}
+
+#cronologia > li {
+    font-size: 20px;
+    margin-left: 7%;
+}
